@@ -1,0 +1,28 @@
+.friendList {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  width: 280px;
+  padding: 0;
+  margin: 20px auto 0 auto;
+  grid-column-gap: 15px;
+  grid-row-gap: 15px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  list-style: none;
+}
+
+.avatar {
+  padding: 0;
+  margin: 10px auto 0 auto;
+}
+
+.name {
+  margin-top: 10px;
+}
